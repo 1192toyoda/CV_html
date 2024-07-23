@@ -1,0 +1,62 @@
+{
+    "name": "My Portfolio Theme",
+    "version": "1.0",
+    "author": "John Doe",
+    "author_uri": "https://example.com",
+    "description": "A simple portfolio theme for WordPress",
+    "tags": ["portfolio", "responsive", "modern"],
+    "template": {
+      "header": {
+        "nav": {
+          "menu": [
+            {"label": "About", "url": "#about"},
+            {"label": "Projects", "url": "#projects"},
+            {"label": "Skills", "url": "#skills"},
+            {"label": "Experience", "url": "#experience"},
+            {"label": "Education", "url": "#education"},
+            {"label": "Testimonials", "url": "#testimonials"},
+            {"label": "Contact", "url": "#contact"}
+          ]
+        }
+      },
+      "main": {
+        "sections": [
+          {
+            "id": "about",
+            "title": "About Me",
+            "content": "<p>I'm a software developer with a passion for building innovative solutions.</p>"
+          },
+          {
+            "id": "projects",
+            "title": "Projects",
+            "content": "<ul><li><h3>Project 1</h3><p>Description of Project 1</p><img src='project1.png' alt='Project 1 screenshot'><ul><li>Technologies used: HTML, CSS, JavaScript</li><li><a href='https://github.com/johndoe/project1'>GitHub repository</a></li></ul></li><li><h3>Project 2</h3><p>Description of Project 2</p><img src='project2.png' alt='Project 2 screenshot'><ul><li>Technologies used: React, Node.js, MongoDB</li><li><a href='https://github.com/johndoe/project2'>GitHub repository</a></li></ul></li></ul>"
+          },
+          {
+            "id": "skills",
+            "title": "Skills",
+            "content": "<ul><li>HTML/CSS</li><li>JavaScript</li><li>React</li><li>Node.js</li><li>MongoDB</li></ul>"
+          },
+          {
+            "id": "experience",
+            "title": "Experience",
+            "content": "<ul><li><h3>Software Developer, ABC Company</h3><p>January 2020 - Present</p><ul><li>Developed multiple web applications using React and Node.js</li><li>Collaborated with cross-functional teams to deliver projects on time</li></ul></li></ul>"
+          },
+          {
+            "id": "education",
+            "title": "Education",
+            "content": "<ul><li><h3>Bachelor of Science in Computer Science, XYZ University</h3><p>2016 - 2020</p></li></ul>"
+          },
+          {
+            "id": "testimonials",
+            "title": "Testimonials",
+            "content": "<ul><li><p>&quot;John is an exceptional developer with a keen eye for detail. He's a pleasure to work with!&quot;</p><p>- Jane Doe, ABC Company</p></li></ul>"
+          },
+          {
+            "id": "contact",
+            "title": "Get in Touch",
+            "content": "<p>Want to discuss a project or just say hi? Send me a message!</p><form><input type='text' placeholder='Name'><input type='email' placeholder='Email'><textarea placeholder='Message'></textarea><button type='submit'>Send Message</button></form>"
+          }
+        ]
+      }
+    }
+  }
